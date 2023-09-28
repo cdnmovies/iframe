@@ -19,7 +19,7 @@ request.addEventListener("readystatechange", () => {
 				let newUrl = protocol + '://' + pathParts.join('/');
 				setTimeout(() => {
 					iframe.src = newUrl;
-				}, 100); 
+				}, 500); 
 			} 
 		}
 	  }
